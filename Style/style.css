@@ -1,0 +1,126 @@
+
+    body 
+    {
+     background-color: #fdf8ee;
+     font-family: Arial, sans-serif;
+     box-sizing: border-box;  
+     }
+    .hero-section
+     { background-color: #fdf8ee;
+         padding: 60px 0;
+         height:  70vb;
+         }
+
+    .services-section, .portfolio-section, .testimonials-section
+     {
+         padding: 60px 0;
+         }
+    .footer {
+         background-color: #0e0e0e; 
+         color: white; 
+         padding: 60px 0; 
+         display: block;
+        }
+    .yellow-btn
+     {   background-color: #ffcb05;
+         color: black;
+         border: none; }
+    .highlight 
+    { 
+         background-color: #ffcb05;
+         padding: 0 5px;
+     }
+    .portfolio-card, .testimonial-card 
+    { background-color: white;
+        border: 1px solid #ccc;
+        padding: 20px;
+        border-radius: 8px; 
+        height: 100%;
+    }
+
+
+     ul a 
+    {
+        transition: ease all 0.5s !important;
+    }
+
+    ul a:hover
+    {
+        color : #ffcb05 !important;
+        font-size: 17px;
+    }
+
+    .leftborder
+    {
+      border-left: 3px gray dotted ;
+    }
+
+    .circleborder
+    {
+        border: 3px #ffcd054d dashed ;
+    }
+
+
+    .backcard 
+    {
+        background-color: #fdf8ee;
+    }
+
+    a
+    {
+        text-decoration: none ;
+    }
+      
+      
+/*Card*/
+
+    .card {
+      background-color: #e5e5e5;
+      width: 300px;
+      padding: 20px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      position: relative;
+      margin-bottom: 20px;
+      margin: 0 auto;
+    }
+
+    .user-icon {
+      width: 60px;
+      height: 60px;
+      border: white 10px solid;
+      border-radius: 50%;
+      background-color: #000;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+      margin: 0 auto 15px;
+      position: absolute;
+      top : -50px ;
+      left: 120px;
+    }
+
+    .testimonial-text {
+      font-size: 14px;
+      color: #333;
+      margin-bottom: 15px;
+    }
+
+    .name {
+      font-weight: bold;
+      color: #ffcc00;
+    }
+
+
+    .footername
+    {
+      font-size: 50px;
+    }
+
+    .myname
+    {
+      font-size: 300px;
+    }
